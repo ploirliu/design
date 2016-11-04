@@ -1,0 +1,20 @@
+﻿Build started 2016/10/29 16:17:26.
+     1>Project "G:\design\design\observe_pattern\observe_pattern.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\observe_pattern.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt observe_pattern.cpp
+         observe_pattern.cpp
+     1>g:\design\design\observe_pattern\subject.h(35): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\design\design\Debug\observe_pattern.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\design\design\Debug\observe_pattern.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\design\design\Debug\observe_pattern.lib" /MACHINE:X86 Debug\observer.obj
+         Debug\observe_pattern.obj
+         Debug\right_observer.obj
+         Debug\stdafx.obj
+         Debug\subject.obj
+         Debug\update.obj
+         Debug\weather.obj
+         observe_pattern.vcxproj -> G:\design\design\Debug\observe_pattern.exe
+     1>Done Building Project "G:\design\design\observe_pattern\observe_pattern.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.40
