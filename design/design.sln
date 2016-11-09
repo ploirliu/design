@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "template_pattern", "templat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iterator_composite", "iterator_composite\iterator_composite.vcxproj", "{81C5663E-9B96-4D94-91D8-654CA0D8448B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "state_pattern", "state_pattern\state_pattern.vcxproj", "{BDD401DA-3F68-4177-8D3A-DBC91A7516A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -63,6 +65,10 @@ Global
 		{81C5663E-9B96-4D94-91D8-654CA0D8448B}.Debug|Win32.Build.0 = Debug|Win32
 		{81C5663E-9B96-4D94-91D8-654CA0D8448B}.Release|Win32.ActiveCfg = Release|Win32
 		{81C5663E-9B96-4D94-91D8-654CA0D8448B}.Release|Win32.Build.0 = Release|Win32
+		{BDD401DA-3F68-4177-8D3A-DBC91A7516A1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BDD401DA-3F68-4177-8D3A-DBC91A7516A1}.Debug|Win32.Build.0 = Debug|Win32
+		{BDD401DA-3F68-4177-8D3A-DBC91A7516A1}.Release|Win32.ActiveCfg = Release|Win32
+		{BDD401DA-3F68-4177-8D3A-DBC91A7516A1}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
