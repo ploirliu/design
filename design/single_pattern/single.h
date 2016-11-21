@@ -4,10 +4,6 @@ using namespace std;
 
 class single{
 public:
-	single(){
-		static int i = 0;
-		cout << "Num:"<<++i << endl;
-	}
 	static  single* getInstance(){
 		static single *unique_single = NULL;
 		if (unique_single == NULL){
@@ -22,5 +18,10 @@ public:
 	}
 	void show(){
 		cout <<"I am single" << endl;
+	}
+private:
+	single(){
+		static int i = 0;
+		cout << "Num:" << ++i << endl;
 	}
 };
